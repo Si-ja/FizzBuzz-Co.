@@ -6,7 +6,7 @@ I wanted to learn how publishing of python modules for wider distribution can be
 
 ## Installation
 
-Run the following to install:
+Run (approximatelly, depending on the current release version and your version of pip/pip3) the following to install:
 
 ```python
 pip install fizzbuzz_co
