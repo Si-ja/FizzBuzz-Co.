@@ -15,7 +15,7 @@ pip install fizzbuzz_co
 ## Usage
 
 ```python
-from fizzbuzz_co import FizzBuzz
+from FizzBuzz import FizzBuzz
 ```
 
 ### Print FizzBuzz values from 5 to 20:
