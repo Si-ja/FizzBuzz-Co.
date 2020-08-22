@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="fizzbuzz_co",
-    version="0.0.1",
+    version="0.0.2",
     description="FizzBuzz For Corporate Practices",
     py_modules=["FizzBuzz"],
     package_dir={"": "src"},
