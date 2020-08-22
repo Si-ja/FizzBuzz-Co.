@@ -24,7 +24,9 @@ from fizzbuzz_co import FizzBuzz
 # Input:
 fizzbuzz=FizzBuzz()
 fizzbuzz.fizzbuzz(amount=15, start=5)
+```
 
+```
 # Output
 Buzz
 Fizz
@@ -52,18 +54,22 @@ fizzbuzz=FizzBuzz()
 sequence=[1, 2, "Fizz", 4, "Buzz"]
 answer = fizzbuzz.compliance(sequence=sequence, start=1)
 print(answer)
+```
 
+```
 # Output:
 The candidate has passed.
+```
 
-# ---------------------------------------------------
-
+```python
 # Input (Negative outcome)
 fizzbuzz=FizzBuzz()
 sequence=[1, "Fizz", 4, "Buzz"]
 answer=fizzbuzz.compliance(sequence=sequence, start=1)
 print(answer)
+```
 
+```
 # Output:
 The candidate has not passed.
 ```
