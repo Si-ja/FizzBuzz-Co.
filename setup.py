@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="fizzbuzz_co",
-    version="0.0.2",
+    name="fizzbuzzco",
+    version="0.0.3",
     description="FizzBuzz For Corporate Practices",
     py_modules=["FizzBuzz"],
     package_dir={"": "src"},
