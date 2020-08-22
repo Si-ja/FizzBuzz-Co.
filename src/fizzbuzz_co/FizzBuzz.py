@@ -29,7 +29,7 @@ class FizzBuzz:
             raise ValueError("A number of values needs to be an integer value")
         if type(start) != int:
             raise ValueError("The starting point needs to be defined with an integer value")
-        for i in range(start, start + amount + 1):
+        for i in range(start, start + amount):
             answer = ""
             if i % self.fizz == 0: answer += "Fizz"
             if i % self.buzz == 0: answer += "Buzz"
