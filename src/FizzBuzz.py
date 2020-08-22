@@ -98,7 +98,3 @@ class FizzBuzz:
         text_file = open(f"FizzBuzz_Report_{now}.md", "w")
         text_file.write(txt_answer)
         text_file.close()
-
-if __name__ == "__main__":
-    fizzbuzz = FizzBuzz()
-    fizzbuzz.compliance_report(sequence=[1, "Banana", "Fizz", 4, "Buzz"], start=1)
